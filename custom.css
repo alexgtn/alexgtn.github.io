@@ -11,5 +11,22 @@ ion-icon {
 }
 
 a {
-    color: #555 !important;
+    color: black !important;
+}
+
+.cover-bg {
+    background-color: rgba(0,0,0,.85);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.home-name {
+    color: black !important;
+}
+
+.home-headline {
+    color: black !important;
 }
