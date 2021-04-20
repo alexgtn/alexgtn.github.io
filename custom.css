@@ -16,7 +16,6 @@ a {
 
 .cover-bg {
     background-color: rgba(0,0,0,.85);
-    background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -29,4 +28,20 @@ a {
 
 .home-headline {
     color: black !important;
+}
+
+.location {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    padding:23px 50px
+}
+
+.fixed-block {
+    z-index: 99;
+}
+
+.block-left {
+    left: 50px !important;
 }
